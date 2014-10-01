@@ -16,4 +16,4 @@ You can start it using `docker run`:
 
 ## Credits
 
-This is highly influenced by the work of @shykes and his shykes/devbox project.
+This is highly influenced by the work of [@shykes](https://github.com/shykes) and his [shykes/devbox](https://github.com/shykes/devbox) project.
