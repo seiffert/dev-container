@@ -2,22 +2,22 @@ FROM ubuntu:14.04
 
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN apt-get update && apt-get install -y \
-    git \
-    mercurial \
-    curl \
-    strace \
-    build-essential \
-    tcpdump \
-    htop \
-    tmux \
-    golang-go \
-    gccgo \
-    vim \
-    vim-nox \
-    exuberant-ctags \
-    wget \
-    ack-grep
+RUN apt-get update
+RUN apt-get install -y git
+RUN apt-get install -y mercurial
+RUN apt-get install -y curl
+RUN apt-get install -y strace
+RUN apt-get install -y build-essential
+RUN apt-get install -y tcpdump
+RUN apt-get install -y htop
+RUN apt-get install -y tmux
+RUN apt-get install -y golang-go
+RUN apt-get install -y gccgo
+RUN apt-get install -y vim
+RUN apt-get install -y vim-nox
+RUN apt-get install -y exuberant-ctags
+RUN apt-get install -y wget
+RUN apt-get install -y ack-grep
 
 # Setup home environment
 ENV SHELL /bin/bash
