@@ -14,6 +14,7 @@ RUN apt-get update && apt-get install -y \
     golang-go \
     gccgo \
     vim \
+    vim-nox \
     exuberant-ctags \
     wget \
     ack-grep
