@@ -53,5 +53,5 @@ USER dev
 # Dirty trick to link my dotfiles over the 
 RUN /bin/bash -l -c "yes | homeshick link dotfiles"
 
-# Start tmux with forced 256 color mode
-ENTRYPOINT /bin/bash -l -c "tmux -2"
+# Start tmux with forced 256 color and unicode mode
+ENTRYPOINT /bin/bash -l -c "tmux -2 -u"
