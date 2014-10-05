@@ -24,7 +24,7 @@ ENV SHELL /bin/bash
 RUN useradd --create-home dev
 RUN mkdir -p /home/dev/go /home/dev/bin
 
-ENV GOPATH /home/dev/go:$GOPATH
+ENV GOPATH /home/dev/go
 
 # Create a shared data volume
 # We need to create an empty file, otherwise the volume will
