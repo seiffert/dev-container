@@ -8,8 +8,8 @@ all: .build get-deps build clean
 	mkdir .build
 
 get-deps: .build
-	git clone git://github.com/andsens/homeshick.git .build/homeshick
-	git clone git://github.com/denderello/dotfiles.git .build/denderello-dotfiles
+	git clone https://github.com/andsens/homeshick.git .build/homeshick
+	git clone https://github.com/denderello/dotfiles.git .build/denderello-dotfiles
 
 clean:
 	rm -rf .build
